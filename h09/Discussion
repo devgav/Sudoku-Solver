@@ -1,0 +1,10 @@
+	When my algorithm attempted to solve example 3 I noticed that the time to find a solution was longer than
+the other sudoku puzzles. I think this is due to the way that the AI escargot sudoku is set up. It is set up
+in a diagonal fashion which means that there can be many possibilities in each cell and my code would have to
+go through each individual solution before coming up with an answer. I also think that the way that I have 
+set up the algorithm with a bruteforce technique makes the code take longer to run. 
+
+	The worse and best case of this bruteforce algorithm is that it will find all the correct values on it's
+first try and we don't have to backtrack. In the worse case scenario would be that every value we enter for each
+cell is incorrect and we would have to backtrack multiple times to solve our sudoku. In this case our algorithm
+backtracked the AI Escargot many times. The AI Escargot was an example of a worse case scenario.
